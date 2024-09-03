@@ -1,14 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test1</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>моя страничка</title>
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
+
   <body>
     <header>
-        <h1>Заголовок основго сайта</h1>
+      <div class="header">
+        <div><img class="logo" src="./images/logo.png" alt="logo" /></div>
+        <div class="logo__nav">
+          <nav>
+            <ul>
+              <li><a href="#">главная</a></li>
+              <li><a href="./second_page.html">html</a></li>
+              <li><a href="./second_page.html">css</a></li>
+              <li><a href="./second_page.html">js</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
+    <main>
+      <section>
+        <h1>Не много о себе</h1>
+        <div class="foto">
+          <img src="./images/den.png" alt="foto" />
+        </div>
+
+        <div class="cah">
+          <span>Мои лучшие качества</span>
+          <ul>
+            <li>внимательность</li>
+            <li>исполнительность</li>
+            <li>желание работать</li>
+            <li>нацеленность на результат</li>
+            <li>эффективность</li>
+            <li>трудолюбивость</li>
+            <li>монотоноустойчивость</li>
+            <li>дисциплинированность</li>
+          </ul>
+        </div>
+        <div class="social">
+          <div><a href="https://vk.com/denzhizhko">Вконтакте</a></div>
+          <div><a href="https://web.telegram.org/a/">Телеграм</a></div>
+          <div><a href="https://web.whatsapp.com/">Вацап</a></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="button">
+        <button type="button" class="bmail">
+          <a href="mailto:denzhizhko@yandex.ru">Написать</a>
+        </button>
+        <button type="button" class="btel">
+          <a href="tel:79362251385">Позвонить</a>
+        </button>
+        <button type="button" class="bf">
+          <a href="https://forms.yandex.ru/admin/"
+            >Оставить предложение о работе</a
+          >
+        </button>
+      </div>
+    </footer>
   </body>
 </html>
